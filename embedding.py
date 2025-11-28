@@ -4,7 +4,7 @@ def embedding():
     print("save embedding")
 
 def embed(text):
-    return f'embedded {text}'
+    return f'embedding external {text}'
 
 def embed_api(text):
     vec = embed(text)
