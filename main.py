@@ -21,7 +21,8 @@ def add_to_stage_with_patch():
 def add_all_to_stage():
     print('git add .')
 
-
+def add_commit():
+    print('git commit')
 
 
 
@@ -30,3 +31,4 @@ if __name__ == '__main__':
     init_git()
     add_to_stage('git-step.py')
     add_ignore()
+    add_commit()
